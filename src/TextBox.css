@@ -1,0 +1,60 @@
+.TBMainText {
+  color: red;
+}
+
+.TBSecondaryText {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.TBBox {
+  background-color: #9c5555b2;
+  border: solid #000;
+  border-width: 2 4px;
+  border-color: rgb(202, 169, 224);
+  height: 50%;
+}
+
+.TBBox,
+.TBBoxButton {
+  width: 20%;
+  position: fixed;
+  left: 10%;
+  top: 10%;
+}
+
+.MainTextHeader {
+  border: solid #000;
+  background-color: #702e2eb2;
+  border-width: 0px 0px 4px 0px;
+  border-color: black;
+  vertical-align: top;
+}
+
+.openBT {
+  position: relative;
+  background-color: #0444f3;
+  width: 40%;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rejectBT {
+  background-color: #f30404;
+  width: 40%;
+  height: 100%;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.acceptBT {
+  background-color: #3be008;
+  width: 40%;
+  height: 30%;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+}

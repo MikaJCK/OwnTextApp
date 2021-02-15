@@ -1,0 +1,40 @@
+ul li {
+  list-style-type: none;
+  border-width: 3px;
+  border-color: black;
+}
+
+ul {
+  position: relative;
+  left: -14%;
+  top: -30%;
+  min-width: 100%;
+  margin: 5px 0;
+}
+
+h1,
+p {
+  font-size: 16px;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  margin: 1px 0;
+  padding: 1px 0 20px 0;
+  margin: 0px 30px;
+  line-height: 1em;
+}
+
+li {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  background: #d8ebf1;
+  outline: 4px solid rgb(0, 255, 98);
+  overflow-wrap: break-word;
+}
+
+.itemContainer {
+  position: relative;
+  background-color: red;
+  height: auto;
+  width: 97%;
+}

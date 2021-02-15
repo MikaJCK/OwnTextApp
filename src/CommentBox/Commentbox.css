@@ -1,0 +1,111 @@
+.FullBox {
+  height: auto;
+  width: 100%;
+  background-color: rgba(85, 84, 84, 0.623);
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 100px;
+  max-height: 80%;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+
+.Commentbox {
+  top: 10px;
+  left: 10%;
+  position: relative;
+  height: 100%;
+  max-height: 500px;
+  max-width: 100%;
+  min-height: 70px;
+  min-width: 100px;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 80%;
+  background-color: rgba(38, 181, 238, 0.822);
+  outline: 4px solid #000;
+}
+
+.CommentText {
+  height: relative;
+}
+.inputText {
+  font-size: 20px;
+}
+
+.sendButton {
+  height: 20px;
+  width: auto;
+}
+
+.CommentForm {
+  position: relative;
+  margin: 20px 0px 0px -10px;
+  height: 100px;
+}
+
+.InputLabel {
+  font-size: 10px + 2vmin;
+  top: 10px;
+  margin-top: -10px;
+  color: black;
+}
+
+.CommentInput {
+  height: 60%;
+  margin: 5px 0;
+  max-width: 60%;
+  max-height: 70%;
+}
+
+textarea {
+  font-size: 16px;
+  resize: none;
+  width: 100%;
+}
+
+.SubmitButton {
+  position: relative;
+  top: -25px;
+  height: 50%;
+  margin: 20px 0px 0px 10px;
+}
+
+.HideButton {
+  position: relative;
+  height: auto;
+  left: 30%;
+  top: 10px;
+  margin-top: -10px;
+  overflow: hidden;
+}
+
+.HideBTTExt {
+  font-size: 50px;
+  margin: -20px 0;
+  top: 10px;
+}
+
+.NoShowBox {
+  height: 35px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 400px;
+  background-color: rgba(85, 84, 84, 0.623);
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #ffffffc4;
+  cursor: pointer;
+}
+
+.Nickname {
+  height: 20px;
+  width: 40%;
+  position: relative;
+  left: 10%;
+  top: 5px;
+  font-size: 15px;
+}
